@@ -1,0 +1,43 @@
+#main-doc {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #navbar {
+    position: fixed;
+    height: 100%;
+  }
+  
+  #technical-doc-writing {
+    width: 75%;
+    margin-left: 250px;
+  }
+  
+  header {
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  #navbar {
+    text-align: center;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  .nav-link {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    #lorem_ipsum_code {
+      display: none;
+    }
+  }
